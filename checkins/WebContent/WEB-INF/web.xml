@@ -37,7 +37,7 @@
 		<url-pattern>*.do</url-pattern>
 		<url-pattern>*.jsp</url-pattern>
 	</filter-mapping>
-	<!-- 权限验证过滤器 
+	<!-- 权限验证过滤器 -->
 	<filter>
 		<filter-name>AuthorityCheckFilter</filter-name>
 		<filter-class>com.checkins.web.AuthorityFilter</filter-class>
@@ -50,7 +50,7 @@
 		<filter-name>AuthorityCheckFilter</filter-name>
 		<url-pattern>*.do</url-pattern>
 	</filter-mapping>
-	-->
+	
 	<!-- Processes application requests -->
 	<servlet>
 		<servlet-name>dispatcherServlet</servlet-name>

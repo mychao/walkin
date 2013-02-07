@@ -23,7 +23,7 @@ create table administrator(
 	primary key (id),
 	unique key (name)
 )engine=innodb;
-
+insert into administrator (id,name,password) values (1, 'admin','admin');
 #place info
 create table place (
 	id int not null auto_increment comment 'generated id',

@@ -1,26 +1,26 @@
 [{
 	"id":1,
-	"text":"My Documents",
+	"text":"My Menus",
 	"children":[{
 		"id":11,
-		"text":"checkins",
+		"text":"admistrator",
 		"state":"closed",
 		"children":[{
 			"id":111,
-			"text":"check in list",
+			"text":"administrator list",
 			"attributes":{
-				"url":"/templates/checkins/list.jsp"
+				"url":"/templates/admin/list.jsp"
 			}
 		}]
 	},{
 		"id":12,
-		"text":"admistrator",
+		"text":"checkins",
 		"state":"closed",
 		"children":[{
 			"id":121,
-			"text":"administrator list",
+			"text":"check in list",
 			"attributes":{
-				"url":"/templates/admin/list.jsp"
+				"url":"/templates/checkins/list.jsp"
 			}
 		}]
 	},{
@@ -28,7 +28,7 @@
 		"text":"place",
 		"state":"closed",
 		"children":[{
-			"id":121,
+			"id":131,
 			"text":"place list",
 			"attributes":{
 				"url":"/templates/place/list.jsp"

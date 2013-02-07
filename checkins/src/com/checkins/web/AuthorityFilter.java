@@ -47,7 +47,7 @@ public class AuthorityFilter implements javax.servlet.Filter{
 				if(managerInfo == null){
 					managerInfo = authorityService.getLoginManagerInfoFromCookie(req);
 					if(managerInfo == null){
-						res.sendRedirect("/cms/login.jsp");
+						res.sendRedirect("/templates/main/login.jsp");
 						return;
 					}
 					authorityService.setLoginManagerInfoToSession(req.getSession(), managerInfo);
