@@ -3,55 +3,36 @@
 	"text":"My Documents",
 	"children":[{
 		"id":11,
-		"text":"Photos",
+		"text":"checkins",
 		"state":"closed",
-		"iconCls":"b",
 		"children":[{
 			"id":111,
-			"text":"Friend",
+			"text":"check in list",
 			"attributes":{
-				"url":"http://sina.com"
-			}
-		},{
-			"id":112,
-			"text":"Wife"
-		},{
-			"id":113,
-			"text":"Company",
-			"attributes":{
-				"url":"http://sohu.com"
+				"url":"/templates/checkins/list.jsp"
 			}
 		}]
 	},{
 		"id":12,
-		"text":"Program Files",
+		"text":"admistrator",
+		"state":"closed",
 		"children":[{
 			"id":121,
-			"text":"Intel"
-		},{
-			"id":122,
-			"text":"Java",
+			"text":"administrator list",
 			"attributes":{
-				"p1":"Custom Attribute1",
-				"p2":"Custom Attribute2",
-				"url":"http://baidu.com"
+				"url":"/templates/admin/list.jsp"
 			}
-		},{
-			"id":123,
-			"text":"Microsoft Office"
-		},{
-			"id":124,
-			"text":"Games",
-			"checked":true
 		}]
 	},{
 		"id":13,
-		"text":"index.html"
-	},{
-		"id":14,
-		"text":"about.html"
-	},{
-		"id":15,
-		"text":"welcome.html"
+		"text":"place",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"place list",
+			"attributes":{
+				"url":"/templates/place/list.jsp"
+			}
+		}]
 	}]
 }]
